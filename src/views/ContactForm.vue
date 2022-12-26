@@ -209,6 +209,7 @@ export default {
 
   .actions {
     margin-top: auto;
+    margin-bottom: 30px;
     display: grid;
     grid-template-columns: 6fr 6fr;
 
