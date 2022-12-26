@@ -126,9 +126,8 @@ export default {
       const contacts = JSON.parse(storedContacts);
 
       if (id == "create") {
-        const newContacts = Array.isArray(contacts)
-          ? contacts.push(this.contact)
-          : [];
+        const newContacts = Array.isArray(contacts) ? contacts : [];
+        newContacts.push(this.contact);
 
         localStorage.setItem("contacts", JSON.stringify(newContacts));
 
