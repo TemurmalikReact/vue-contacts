@@ -160,7 +160,7 @@ export default {
   width: 100%;
   display: flex;
   flex-direction: column;
-  overflow-y: scroll;
+  justify-content: space-between;
 
   &__avatar {
     width: 75px;
@@ -209,7 +209,6 @@ export default {
 
   .actions {
     margin-top: auto;
-    margin-bottom: 50px;
     display: grid;
     grid-template-columns: 6fr 6fr;
 

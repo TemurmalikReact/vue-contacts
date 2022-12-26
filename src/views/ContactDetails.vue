@@ -197,13 +197,13 @@ export default {
 <style lang="scss" scoped>
 .details {
   position: fixed;
-  overflow: scroll;
   height: 100vh;
   width: 100%;
   padding: 15px 0 0 0;
   background: rgb(245, 245, 245);
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 
   .back {
     width: fit-content;
@@ -222,7 +222,6 @@ export default {
     background: #fff;
     position: relative;
     border-radius: 25px;
-    margin-top: 75px;
 
     &__avatar {
       width: 75px;
@@ -318,8 +317,6 @@ export default {
   }
 
   .footer {
-    margin-top: auto;
-    margin-bottom: 50px;
     padding: 15px 25px;
     display: flex;
     justify-content: space-around;
