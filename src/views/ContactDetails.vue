@@ -319,7 +319,7 @@ export default {
 
   .footer {
     margin-top: auto;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     padding: 15px 25px;
     display: flex;
     justify-content: space-around;
