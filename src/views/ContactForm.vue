@@ -126,8 +126,11 @@ export default {
       const contacts = JSON.parse(storedContacts);
 
       if (id == "create") {
-        contacts.push(this.contact);
-        localStorage.setItem("contacts", JSON.stringify(contacts));
+        const newContacts = Array.isArray(contacts)
+          ? contacts.push(this.contact)
+          : [];
+
+        localStorage.setItem("contacts", JSON.stringify(newContacts));
 
         this.$router.push("/");
       } else {
