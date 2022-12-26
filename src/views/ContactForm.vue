@@ -155,12 +155,10 @@ export default {
 <style lang="scss" scoped>
 .form {
   background: rgb(245, 245, 245);
-  position: fixed;
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 
   &__avatar {
     width: 75px;
@@ -208,9 +206,9 @@ export default {
   }
 
   .actions {
-    margin-top: auto;
     display: grid;
     grid-template-columns: 6fr 6fr;
+    margin-top: auto;
 
     button {
       background: transparent;
