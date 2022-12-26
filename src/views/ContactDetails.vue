@@ -197,7 +197,7 @@ export default {
 <style lang="scss" scoped>
 .details {
   position: fixed;
-  overflow: hidden;
+  overflow: scroll;
   height: 100vh;
   width: 100%;
   padding: 15px 0 0 0;

@@ -160,6 +160,7 @@ export default {
   width: 100%;
   display: flex;
   flex-direction: column;
+  overflow-y: scroll;
 
   &__avatar {
     width: 75px;
