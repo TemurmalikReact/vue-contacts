@@ -1,82 +1,22 @@
 <template>
   <div class="form">
     <div class="form__avatar">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-        <g data-name="Layer 2">
-          <g data-name="phone-call">
-            <rect width="24" height="24" opacity="0" />
-            <path
-              d="M13 8a3 3 0 0 1 3 3 1 1 0 0 0 2 0 5 5 0 0 0-5-5 1 1 0 0 0 0 2z"
-            />
-            <path
-              d="M13 4a7 7 0 0 1 7 7 1 1 0 0 0 2 0 9 9 0 0 0-9-9 1 1 0 0 0 0 2z"
-            />
-            <path
-              d="M21.75 15.91a1 1 0 0 0-.72-.65l-6-1.37a1 1 0 0 0-.92.26c-.14.13-.15.14-.8 1.38a9.91 9.91 0 0 1-4.87-4.89C9.71 10 9.72 10 9.85 9.85a1 1 0 0 0 .26-.92L8.74 3a1 1 0 0 0-.65-.72 3.79 3.79 0 0 0-.72-.18A3.94 3.94 0 0 0 6.6 2 4.6 4.6 0 0 0 2 6.6 15.42 15.42 0 0 0 17.4 22a4.6 4.6 0 0 0 4.6-4.6 4.77 4.77 0 0 0-.06-.76 4.34 4.34 0 0 0-.19-.73z"
-            />
-          </g>
-        </g>
-      </svg>
+      <img src="../assets/phone.svg" alt="" />
     </div>
     <div class="form__item">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-        <g data-name="Layer 2">
-          <g data-name="phone-call">
-            <rect width="24" height="24" opacity="0" />
-            <path
-              d="M13 8a3 3 0 0 1 3 3 1 1 0 0 0 2 0 5 5 0 0 0-5-5 1 1 0 0 0 0 2z"
-            />
-            <path
-              d="M13 4a7 7 0 0 1 7 7 1 1 0 0 0 2 0 9 9 0 0 0-9-9 1 1 0 0 0 0 2z"
-            />
-            <path
-              d="M21.75 15.91a1 1 0 0 0-.72-.65l-6-1.37a1 1 0 0 0-.92.26c-.14.13-.15.14-.8 1.38a9.91 9.91 0 0 1-4.87-4.89C9.71 10 9.72 10 9.85 9.85a1 1 0 0 0 .26-.92L8.74 3a1 1 0 0 0-.65-.72 3.79 3.79 0 0 0-.72-.18A3.94 3.94 0 0 0 6.6 2 4.6 4.6 0 0 0 2 6.6 15.42 15.42 0 0 0 17.4 22a4.6 4.6 0 0 0 4.6-4.6 4.77 4.77 0 0 0-.06-.76 4.34 4.34 0 0 0-.19-.73z"
-            />
-          </g>
-        </g>
-      </svg>
+      <img src="../assets/phone-grey.svg" alt="" />
       <input v-model="contact.name" type="text" placeholder="Name" />
     </div>
     <div class="form__item">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-        <g data-name="Layer 2">
-          <g data-name="phone-call">
-            <rect width="24" height="24" opacity="0" />
-            <path
-              d="M13 8a3 3 0 0 1 3 3 1 1 0 0 0 2 0 5 5 0 0 0-5-5 1 1 0 0 0 0 2z"
-            />
-            <path
-              d="M13 4a7 7 0 0 1 7 7 1 1 0 0 0 2 0 9 9 0 0 0-9-9 1 1 0 0 0 0 2z"
-            />
-            <path
-              d="M21.75 15.91a1 1 0 0 0-.72-.65l-6-1.37a1 1 0 0 0-.92.26c-.14.13-.15.14-.8 1.38a9.91 9.91 0 0 1-4.87-4.89C9.71 10 9.72 10 9.85 9.85a1 1 0 0 0 .26-.92L8.74 3a1 1 0 0 0-.65-.72 3.79 3.79 0 0 0-.72-.18A3.94 3.94 0 0 0 6.6 2 4.6 4.6 0 0 0 2 6.6 15.42 15.42 0 0 0 17.4 22a4.6 4.6 0 0 0 4.6-4.6 4.77 4.77 0 0 0-.06-.76 4.34 4.34 0 0 0-.19-.73z"
-            />
-          </g>
-        </g>
-      </svg>
+      <img src="../assets/phone-grey.svg" alt="" />
       <input v-model="contact.phone" type="number" placeholder="Phone Number" />
     </div>
     <div class="form__item">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-        <g data-name="Layer 2">
-          <g data-name="phone-call">
-            <rect width="24" height="24" opacity="0" />
-            <path
-              d="M13 8a3 3 0 0 1 3 3 1 1 0 0 0 2 0 5 5 0 0 0-5-5 1 1 0 0 0 0 2z"
-            />
-            <path
-              d="M13 4a7 7 0 0 1 7 7 1 1 0 0 0 2 0 9 9 0 0 0-9-9 1 1 0 0 0 0 2z"
-            />
-            <path
-              d="M21.75 15.91a1 1 0 0 0-.72-.65l-6-1.37a1 1 0 0 0-.92.26c-.14.13-.15.14-.8 1.38a9.91 9.91 0 0 1-4.87-4.89C9.71 10 9.72 10 9.85 9.85a1 1 0 0 0 .26-.92L8.74 3a1 1 0 0 0-.65-.72 3.79 3.79 0 0 0-.72-.18A3.94 3.94 0 0 0 6.6 2 4.6 4.6 0 0 0 2 6.6 15.42 15.42 0 0 0 17.4 22a4.6 4.6 0 0 0 4.6-4.6 4.77 4.77 0 0 0-.06-.76 4.34 4.34 0 0 0-.19-.73z"
-            />
-          </g>
-        </g>
-      </svg>
+      <img src="../assets/phone-grey.svg" alt="" />
       <input v-model="contact.email" type="email" placeholder="Email" />
     </div>
     <div class="actions">
-      <button @click="cancel">Cancel</button>
+      <button @click="$router.back">Cancel</button>
       <button @click="save">Save</button>
     </div>
   </div>
@@ -96,29 +36,21 @@ export default {
       },
     };
   },
-  mounted() {
-    if (this.$route.params.id == "create") {
+  created() {
+    const id = this.$route.params.id;
+
+    if (id == "create") {
       console.log("Create Page");
     } else {
       const storedContacts = localStorage.getItem("contacts");
       const contacts = JSON.parse(storedContacts);
 
-      const currentContact = contacts.find(
-        (contact) => contact.id == this.$route.params.id
-      );
+      const currentContact = contacts.find((contact) => contact.id == id);
 
       this.contact = currentContact;
     }
   },
   methods: {
-    cancel() {
-      if (this.$route.params.id == "create") {
-        this.$router.push("/");
-      } else {
-        this.$router.push(`/contact-details/${this.contact.id}`);
-      }
-    },
-
     save() {
       const id = this.$route.params.id;
 
@@ -130,8 +62,6 @@ export default {
         newContacts.push(this.contact);
 
         localStorage.setItem("contacts", JSON.stringify(newContacts));
-
-        this.$router.push("/");
       } else {
         const updateContacts = contacts.map((contact) =>
           id == contact.id
@@ -145,9 +75,9 @@ export default {
         );
 
         localStorage.setItem("contacts", JSON.stringify(updateContacts));
-
-        this.$router.push(`/contact-details/${this.contact.id}`);
       }
+
+      this.$router.back();
     },
   },
 };
@@ -170,9 +100,8 @@ export default {
     align-items: center;
     margin: 25px auto;
 
-    svg {
+    img {
       width: 25px;
-      fill: #fff;
     }
   }
 
@@ -183,9 +112,8 @@ export default {
     display: flex;
     margin-bottom: 25px;
 
-    svg {
+    img {
       width: 25px;
-      fill: rgb(200, 200, 200);
       margin-right: 25px;
     }
 
